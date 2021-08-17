@@ -22,7 +22,7 @@ Inspect the CSVs and sketch out an ERD of the tables using [http://www.quickdata
 
 #### Data Analysis
 
-Once database is complete, do the following:
+The database queries file queries the following:
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 
