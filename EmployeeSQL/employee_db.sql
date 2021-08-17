@@ -1,3 +1,6 @@
+-- SQL CHALLENGE - EMPLOYEE DATABASE
+-- BY: JACK COHEN
+
 -- 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 
 SELECT emp_no AS "Employee Number",
@@ -46,6 +49,8 @@ FROM "Employees" e
 		JOIN "Departments" d
 		ON (de.dept_no = d.dept_no)
 
+SELECT * FROM emp_dept
+
 -- 5. List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
 
 SELECT first_name AS "First Name",
@@ -73,6 +78,3 @@ SELECT e.last_name AS "Last Name",
 FROM "Employees" e
 GROUP BY "Last Name"
 ORDER BY "Frequency" DESC
-
---
-
