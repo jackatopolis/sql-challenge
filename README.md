@@ -1,4 +1,4 @@
-# SQL-challenge - Employee Database: A Mystery in Two Parts
+# SQL-challenge - Employee Database
 ### By: Jack Cohen
 
 ## Background
